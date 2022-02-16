@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: auto;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.content {
+    width: auto;
+    padding-left: 500px;
+    padding-top: 40px;
+    height: 60px;
+}
+
+.btn {
+    display: flex;
+    border-radius: 0px;
+    width: 60px;
+    height: 30px;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn > button {
+    margin-left: 20px;
+}
+
+.clear {
+    margin-left: 350px;
+}
+
+:root {
+    --rows: 0;
+    --cols: 0;
+}
+
+.grids {
+    display: grid;
+    grid-template-rows: repeat(var(--rows), 1fr);
+    grid-template-columns: repeat(var(--cols), 1fr);
+    gap: 0em;
+    border: 6px solid gold;
+    background-color: white;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.toGrids {
+    padding: 0em;
+    text-align: center;
+}
+
+.footer {
+    background-color: darkblue;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    width: auto;
+    height: 50px;
+}
